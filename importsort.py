@@ -2,13 +2,13 @@
 # @Author: MaxST
 # @Date:   2019-10-10 09:48:41
 # @Last Modified by:   MaxST
-# @Last Modified time: 2019-10-10 11:59:57
+# @Last Modified time: 2019-10-10 14:47:49
 import os
 import sys
 
 import sublime
 import sublime_plugin
-from isort import SortImports
+from .isort import SortImports
 
 sys.path.append(os.path.dirname(__file__))
 
